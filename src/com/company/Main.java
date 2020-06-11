@@ -12,7 +12,7 @@ public class Main {
         int height = num.nextInt();
         BmiService service = new BmiService();
         double index = service.getBodyMassIndex(mass, height);
-        float result = (float)Math.round(index);
+        float result = (float) Math.round(index);
         System.out.print("Your BMI equals " + result + " kg/m2");
 
     }
